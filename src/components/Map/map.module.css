@@ -1,0 +1,17 @@
+
+.mapdiv{
+    width: 29%;
+    margin: auto;
+}
+
+.path{
+    fill:#6f9c76;
+    stroke: #17281a;
+    stroke-width: 2px;
+    transition: fill 0.3s;
+}
+
+.mapdiv path:hover{
+    fill: #17281a;
+    stroke: wheat
+}
