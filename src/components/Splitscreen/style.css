@@ -1,0 +1,13 @@
+#container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.leftscreen{
+    width: 100vh;
+}
+
+.rightscreen{
+    width:100vh;
+}
