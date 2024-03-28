@@ -1,14 +1,19 @@
 import React from 'react';
+import {Routes,Route} from "react-router-dom"
 
 import Admin from './pages/Admin';
-import Navbar from './components/Navbar';
+import Main from './pages/Main';
+
 
 const App = () =>{
   return(
     <>
-    <Navbar/>
-    <Admin/>
+    <Routes>
+      <Route path='/' element={<Main/>}/>
+      <Route path="/admin" element={<Admin/>}/>
+    </Routes>
     </>
+   
   )
 }
 
